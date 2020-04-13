@@ -14,6 +14,7 @@
 		900776B0240EA907001CF508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900776AF240EA907001CF508 /* Assets.xcassets */; };
 		900776B3240EA907001CF508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900776B1240EA907001CF508 /* LaunchScreen.storyboard */; };
 		9009D486241B577000ABBFBA /* FilterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009D485241B577000ABBFBA /* FilterViewCell.swift */; };
+		9052AAF22433A7E0007F59F9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052AAF12433A7E0007F59F9 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		900776B2240EA907001CF508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900776B4240EA907001CF508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9009D485241B577000ABBFBA /* FilterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewCell.swift; sourceTree = "<group>"; };
+		9052AAF12433A7E0007F59F9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				900776A8240EA905001CF508 /* SceneDelegate.swift */,
 				900776AA240EA905001CF508 /* HomeController.swift */,
 				9009D485241B577000ABBFBA /* FilterViewCell.swift */,
+				9052AAF12433A7E0007F59F9 /* Extension.swift */,
 				900776AC240EA905001CF508 /* Main.storyboard */,
 				900776AF240EA907001CF508 /* Assets.xcassets */,
 				900776B1240EA907001CF508 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9009D486241B577000ABBFBA /* FilterViewCell.swift in Sources */,
+				9052AAF22433A7E0007F59F9 /* Extension.swift in Sources */,
 				900776AB240EA905001CF508 /* HomeController.swift in Sources */,
 				900776A7240EA905001CF508 /* AppDelegate.swift in Sources */,
 				900776A9240EA905001CF508 /* SceneDelegate.swift in Sources */,

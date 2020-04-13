@@ -29,26 +29,26 @@
                                     <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterCell" id="9JC-kj-uYv" customClass="FilterViewCell" customModule="CollectionViewDynamicSizing" customModuleProvider="target">
-                                        <rect key="frame" x="5" y="19.5" width="78" height="41.5"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterViewCell" id="9JC-kj-uYv" customClass="FilterViewCell" customModule="CollectionViewDynamicSizing" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="19.5" width="155" height="41.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VqF-s2-cYq">
-                                            <rect key="frame" x="0.0" y="0.0" width="78" height="41.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="155" height="41.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crQ-KX-Mcr">
-                                                    <rect key="frame" x="0.0" y="0.0" width="78" height="41.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="155" height="41.5"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ae8-rw-bLK">
-                                                            <rect key="frame" x="10" y="10" width="58" height="21.5"/>
+                                                            <rect key="frame" x="10" y="10" width="135" height="21.5"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mPB-NQ-7hw">
                                                                     <rect key="frame" x="0.0" y="1" width="21" height="19"/>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNX-bm-39T">
-                                                                    <rect key="frame" x="26" y="0.0" width="32" height="21.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excess WOrk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNX-bm-39T">
+                                                                    <rect key="frame" x="26" y="0.0" width="109" height="21.5"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                                    <color key="textColor" red="0.96093100310000001" green="0.95643967389999995" blue="0.98431795840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="textColor" red="0.43137254899999999" green="0.047058823530000002" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>

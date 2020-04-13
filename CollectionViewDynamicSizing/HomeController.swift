@@ -31,8 +31,9 @@ extension HomeController: UICollectionViewDelegate,UICollectionViewDataSource {
         return filters.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FilterCell", for: indexPath) as? FilterViewCell
-            else { return UICollectionViewCell() }
+//        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FilterCell", for: indexPath) as? FilterViewCell
+//            else { return UICollectionViewCell() }
+        let cell = collectionView.dequeueReusableCell(ofType: FilterViewCell.self, for: indexPath)
         cell.labelFilterName.text = filters[indexPath.item]
         if cell.isSelected {
             cell.labelFilterName.textColor = .white
