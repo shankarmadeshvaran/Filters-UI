@@ -14,6 +14,6 @@ This project is updated for Swift 5 and Xcode 11+ . I'll be updating the code fo
 I have put an detailed article on [Developing Filters UI with Auto Resizing Cells using UICollectionView](https://medium.com/flawless-app-stories/uicollectionview-developing-filters-ui-using-auto-resizing-cells-98f19fbce88b) on Medium.
 
 ## More Updates
-Follow me on [LinkedIn](https://linkedin.com/in/shankar-mathesh) or [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. 
+Follow me on [LinkedIn](https://linkedin.com/in/shankar-mathesh) or [Twitter](https://twitter.com/devinmaking) to get the latest update about features, code and more. 
 
 
